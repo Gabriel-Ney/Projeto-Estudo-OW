@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overwatch</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/scrollbar.css">
+
+</head>
+
+<body>
+    <header>
+        <a href="#">
+            <img src="./src/imagens/Overwatch_2_logo.png" alt="overwatch" class="logo">
+        </a>
+
+        <div class="music-player">
+            <nav>
+                <div class="circle">
+                    <img src="./src/imagens/left-arrow.png" alt="avancar" class="menu-icons">
+                </div>
+            </nav>
+        </div>
+
+        <div>
+            <img src="./src/imagens/music1.png" alt="Overwatch Music" id="menu-logo">
+        </div>
+
+        <div class="music-player">
+            <nav>
+                <div class="circle">
+                    <img src="./src/imagens/Bars.png" alt="voltar" class="menu-icons">
+                </div>
+            </nav>
+        </div>
+        </div>
+
+
+        <button id="botao-tema">
+            <img src="./src/imagens/moon.png" alt="modo-escuro" class="imagem-botao">
+        </button>
+
+    </header>
+
+    <main>
+        <h1 class="apresentacao">Olá</h1>
+        <p class="apresentacao">Conheça os personagens de Overwatch através da música:</p>
+
+        <ul class="listagem-personagens">
+            <!--Ana-->
+            <li class="cartao-personagem">
+
+                <div class="informacoes">
+                    <span>Ana</span>
+                    <span>#001</span>
+                </div>
+
+
+                <img src="./src/imagens/Ana.gif" alt="ana" class="gif">
+
+                <ul class="funcao">
+                    <li class="funcao-suporte">Suporte</li>
+                </ul>
+
+                <ul class="origem">
+                    <li><img src="./src/imagens/Egito.png" alt="Egito" class="pais"></li>
+                    <li class="cidade">Cairo, Egito</li>
+                </ul>
+
+                <p class="descricao">Uma fundadora da Overwatch e outrora conhecida como a melhor franco-atiradora do
+                    mundo, Ana Amari vem
+                    de uma longa linhagem de veteranos militares condecorados. Embora dada como morta em combate durante
+                    um confronto com a Talon, ela voltou à luta para proteger seu país, sua família e os aliados mais
+                    próximos.</p>
+            </li>
+            <!--Ashe-->
+            <li class="cartao-personagem">
+                <div class="informacoes">
+                    <span>Ashe</span>
+                    <span>#002</span>
+                </div>
+
+                <img src="./src/imagens/Ashe.gif" alt="ashe" class="gif">
+
+                <ul class="funcao">
+                    <li class="funcao-dano">Dano</li>
+                </ul>
+
+                <ul class="origem">
+                    <li><img src="./src/imagens/Eua.png" alt="EUA" class="pais"></li>
+                    <li class="cidade">Arizona, EUA</li>
+                </ul>
+
+                <p class="descricao">Ashe nasceu em uma família rica com pais que se importavam mais com a fortuna que
+                    com a filha.
+                    Ambiciosa e calculista, ela se rebelou e formou a Gangue Deadlock, que logo ficou famosa no submundo
+                    do crime. Depois de convencer as gangues do Sudoeste a trabalharem juntas, Ashe se tornou uma lenda,
+                    devolvendo a fama ao antigo Velho Oeste.</p>
+            </li>
+            <!--Baptiste-->
+            <li class="cartao-personagem">
+                <div class="informacoes">
+                    <span>Baptiste</span>
+                    <span>#003</span>
+                </div>
+
+                <img src="./src/imagens/Baptiste.webp" alt="baptista" class="webp">
+
+                <ul class="funcao">
+                    <li class="funcao-suporte">Suporte</li>
+                </ul>
+
+                <ul class="origem">
+                    <li><img src="./src/imagens/Haiti.png" alt="Haiti" class="pais"></li>
+                    <li class="cidade">Tortuga, Haiti</li>
+                </ul>
+
+                <p class="descricao">Um médico de combate de elite, Baptiste foi atraído para a Talon pela promessa de
+                    dinheiro fácil.
+                    Depois, com nojo que fez, ele desertou a Talon para forjar um novo caminho para si. Hoje, ele
+                    trabalha por um mundo melhor, curando quando é possível e combatendo quando é preciso.</p>
+            </li>
+            <!--Bastion-->
+            <li class="cartao-personagem">
+                <div class="informacoes">
+                    <span>Bastion</span>
+                    <span>#004</span>
+                </div>
+
+                <img src="./src/imagens/Bastion.gif" alt="bastion" class="gif">
+
+                <ul class="funcao">
+                    <li class="funcao-dano">Dano</li>
+                </ul>
+
+                <ul class="origem">
+                    <li><img src="./src/imagens/Suecia.png" alt="Suécia" class="pais"></li>
+                    <li class="cidade">Gotemburgo, Suécia</li>
+                </ul>
+
+                <p class="descricao">Abandonado e adormecido depois da devastadora Crise Ômnica, esta unidade Bastion
+                    despertou em um
+                    mundo diferente. Antes hostil, agora a máquina é curiosa e tem fascínio pela natureza. Ao lado de
+                    seu companheiro pássaro, Ganimedes, Bastion acabou sendo encontrado por Torbjörn Lindholm, com quem
+                    trabalha para ajudar os humanos que enfrentava no passado.</p>
+            </li>
+            <!--Brigitte-->
+            <li class="cartao-personagem">
+                <div class="informacoes">
+                    <span>Brigitte</span>
+                    <span>#005</span>
+                </div>
+
+                <img src="./src/imagens/Brigitte.gif" alt="brigitte" class="gif">
+
+                <ul class="funcao">
+                    <li class="funcao-suporte">suporte</li>
+                </ul>
+
+                <ul class="origem">
+                    <li><img src="./src/imagens/Suecia.png" alt="Suécia" class="pais"></li>
+                    <li class="cidade">Gotemburgo, Suécia</li>
+                </ul>
+
+                <p class="descricao">Uma Lindholm da cabeça aos pés, a aptidão de Brigitte para a engenharia só é
+                    rivalizada por seu senso
+                    de honra. Desde pequena, ela buscava inspiração nas histórias de bravura que ouvia do padrinho,
+                    Reinhardt. Quando cresceu, se tornou a escudeira do cavaleiro. Os dois se uniram à nova Overwatch,
+                    esperando corrigir os erros do mundo.</p>
+            </li>
+            <!--Cassidy-->
+            <li class="cartao-personagem">
+                <div class="informacoes">
+                    <span>Cassidy</span>
+                    <span>#006</span>
+                </div>
+
+                <img src="./src/imagens/Mccree.gif" alt="mccree" class="gif">
+
+                <ul class="funcao">
+                    <li class="funcao-dano">dano</li>
+                </ul>
+
+                <ul class="origem">
+                    <li><img src="./src/imagens/Eua.png" alt="EUA" class="pais"></li>
+                    <li class="cidade">Novo México, EUA</li>
+                </ul>
+
+                <p class="descricao">Um membro fundador da famosa Gangue Deadlock, Cassidy acabou sendo coagido a
+                    participar da
+                    Blackwatch, a divisão de operações secretas da Overwatch. Ele chegou a acreditar que poderia
+                    compensar os erros do passado corrigindo as injustiças do mundo. Mas, quando a Overwatch caiu,
+                    Cassidy desapareceu, ressurgindo depois como um pistoleiro mercenário, lutando apenas por causas que
+                    acredita serem justas.</p>
+            </li>
+            <!--D.VA-->
+            <li class="cartao-personagem">
+                <div class="informacoes">
+                    <span>D.VA</span>
+                    <span>#007</span>
+                </div>
+
+                <img src="./src/imagens/D.va.gif" alt="d.va" class="gif">
+
+                <ul class="funcao">
+                    <li class="funcao-tanque">tanque</li>
+                </ul>
+
+                <ul class="origem">
+                    <li><img src="./src/imagens/Coreia-do-sul.png" alt="Coréia do Sul" class="pais"></li>
+                    <li class="cidade">Busan, Coreia do Sul</li>
+                </ul>
+
+                <p class="descricao">Hana Song, mais conhecida pelo artístico “D.Va”, é a número 1. Como ex-jogadora
+                    profissional, D.Va
+                    usa suas habilidades para pilotar um mecha e defender a Coreia do Sul. Ela e os outros pilotos,
+                    conhecidos como Esquadrão MEKA, são a linha de defensa entre o país e os Kishin invasores, uma
+                    ameaça mecânica das profundezas.</p>
+            </li>
+            <!--Doomfist-->
+            <li class="cartao-personagem">
+                <div class="informacoes">
+                    <span>Doomfist</span>
+                    <span>#008</span>
+                </div>
+
+                <img src="./src/imagens/Doomfist.gif" alt="doomfist" class="gif">
+
+                <ul class="funcao">
+                    <li class="funcao-tanque">tanque</li>
+                </ul>
+
+                <ul class="origem">
+                    <li><img src="./src/imagens/Nigeria.png" alt="Nigéria" class="pais"></li>
+                    <li class="cidade">Oyo, Nigéria</li>
+                </ul>
+
+                <p class="descricao">Um lutador exímio e líder nato, Akande Ogundimu perdeu o braço direito durante a
+                    Crise Ômnica e
+                    depois se uniu à Talon. Galgando escalões, ele matou seu chefe, o Doomfist anterior, e tomou a arma
+                    e título de mesmo nome. Agora, está determinado a lançar o mundo em um novo conflito por seus
+                    próprios fins misteriosos.</p>
+            </li>
+            <!--Echo-->
+            <li class="cartao-personagem">
+                <div class="informacoes">
+                    <span>Echo</span>
+                    <span>#009</span>
+                </div>
+
+                <img src="./src/imagens/Echo.webp" alt="echo" class="webp">
+
+                <ul class="funcao">
+                    <li class="funcao-dano">dano</li>
+                </ul>
+
+                <ul class="origem">
+                    <li><img src="./src/imagens/Eua.png" alt="EUA" class="pais"></li>
+                    <li class="cidade">EUA</li>
+                </ul>
+
+                <p class="descricao">Desenvolvida pela roboticista da Overwatch, Mina Liao, a IA avançada superadaptável
+                    Echo compartilha
+                    parte da personalidade de sua criadora. Mas depois que Liao foi assassinada, seu projeto foi
+                    encerrado e Echo foi colocada em quarentena militar. Anos depois, ela foi libertada por Cole Cassidy
+                    e se uniu à nova Overwatch na luta para salvar o mundo.</p>
+            </li>
+            <!--Genji-->
+            <li class="cartao-personagem">
+                <div class="informacoes">
+                    <span>Genji</span>
+                    <span>#010</span>
+                </div>
+
+                <img src="./src/imagens/Genji-1.gif" alt="genji" class="gif">
+
+                <ul class="funcao">
+                    <li class="funcao-dano">dano</li>
+                </ul>
+
+                <ul class="origem">
+                    <li><img src="./src/imagens/Japao.png" alt="Japão" class="pais"></li>
+                    <li class="cidade">Hanamura, Japão </li>
+                </ul>
+
+                <p class="descricao">À beira da morte pelas mãos do próprio irmão, o ninja Genji Shimada foi resgatado
+                    pela Overwatch.
+                    Para salvar a vida dele, a organização o transformou em uma arma viva com melhorias cibernéticas. Em
+                    conflito com sua natureza e propósito após o fim da Overwatch, Genji buscou paz estudando com o
+                    monge ômnico Zenyatta antes de atender ao chamado de Winston.</p>
+            </li>
+            <!--Hanzo-->
+            <li class="cartao-personagem">
+                <div class="informacoes">
+                    <span>Hanzo</span>
+                    <span>#011</span>
+                </div>
+
+                <img src="./src/imagens/Hanzo.gif" alt="hanzo" class="gif">
+
+                <ul class="funcao">
+                    <li class="funcao-dano">dano</li>
+                </ul>
+
+                <ul class="origem">
+                    <li><img src="./src/imagens/Japao.png" alt="Japão" class="pais"></li>
+                    <li class="cidade">Hanamura, Japão </li>
+                </ul>
+
+                <p class="descricao">Quando seu pai faleceu, coube a Hanzo liderar o clã de ninjas Shimada. Os mais
+                    velhos o forçaram a
+                    fazer Genji, seu irmão despreocupado, andar na linha, o que levou a um confronto em que Hanzo atacou
+                    Genji. Horrorizado, Hanzo abandonou o clã, vagando pelo mundo sozinho como punição. Mas agora,
+                    depois de descobrir que o caçula ainda está vivo, Hanzo precisa decidir aonde seu caminho o levará.
+                </p>
+            </li>
+            <!--Junkrat-->
+            <li class="cartao-personagem">
+                <div class="informacoes">
+                    <span>Junkrat</span>
+                    <span>#012</span>
+                </div>
+
+                <img src="./src/imagens/Junkrat.gif" alt="junkrat" class="gif">
+
+                <ul class="funcao">
+                    <li class="funcao-dano">dano</li>
+                </ul>
+
+                <ul class="origem">
+                    <li><img src="./src/imagens/Australia.png" alt="Austrália" class="pais"></li>
+                    <li class="cidade">Junkertown, Austrália</li>
+                </ul>
+
+                <p class="descricao">Junkrat é um anômalo insano obcecado por explosivos que cresceu no deserto
+                    radioativo que cerca
+                    Junkertown. Como um dos “junkers” sem lei do outback, ele e seu parceiro/guarda-costas Roadhog vivem
+                    para provocar ondas de crime e destruição.</p>
+            </li>
+            <!--Kiriko-->
+            <li class="cartao-personagem">
+                <div class="informacoes">
+                    <span>Kiriko</span>
+                    <span>#013</span>
+                </div>
+
+                <img src="./src/imagens/Kiriko.webp" alt="kiriko" class="webp">
+
+                <ul class="funcao">
+                    <li class="funcao-suporte">suporte</li>
+                </ul>
+
+                <ul class="origem">
+                    <li><img src="./src/imagens/Japao.png" alt="Japão" class="pais"></li>
+                    <li class="cidade">Kanezaka, Japão</li>
+                </ul>
+
+                
+
+                <p class="descricao">Kiriko aprendeu a arte letal do ninjútsu com a mãe, Asa. Quando o clã Shimada caiu,
+                    os rivais,
+                    Hashimoto, fizeram o pai de Kiriko refém. Por segurança, Kiriko foi morar com a avó, que a ensinou a
+                    arte da cura. Anos depois, ela voltou à sua cidade natal para libertar a comunidade das garras
+                    cruéis dos Hashimoto.</p>
+            </li>
+            <!--Lucio-->
+            <li class="cartao-personagem">
+                <div class="informacoes">
+                    <span>Lucio</span>
+                    <span>#014</span>
+                </div>
+
+                <img src="./src/imagens/Lucio.gif" alt="lúcio" class="webp">
+
+                <ul class="funcao">
+                    <li class="funcao-suporte">suporte</li>
+                </ul>
+
+                <ul class="origem">
+                    <li><img src="./src/imagens/Brasil.png" alt="Brasil" class="pais"></li>
+                    <li class="cidade">Rio de Janeiro, Brasil</li>
+                </ul>
+
+                <div class="music">
+                    <audio id="song">
+                        <source src="./src/media/videoplayback.m4a" type="audio/mpeg">
+                    </audio>
+                    <input type="range" value="0" id="progress">
+
+                    <div class="controls">
+                        <div><img src="./src/imagens/fast-backward.png" alt="voltar" class="tamanho-img"></div>
+                        <div onclick="playPause()"><img src="./src/imagens/play.png" alt="play" class="tamanhoImg2"
+                                id="ctrlIcon"></div>
+                        <div><img src="./src/imagens/fast-foward.png" alt="avançar" class="tamanho-img"></div>
+
+                    </div>
+
+                </div>
+
+                <p class="descricao">Lúcio cresceu nas favelas do Rio antes se tornar um DJ famoso em seu nicho. Mas,
+                    quando a Corporação
+                    Vishkar reconstruiu a cidade e destruiu a comunidade, Lúcio recuperou da empresa a tecnologia sônica
+                    do pai e a usou para conclamar o povo. Agora, como uma celebridade internacional, ele inspira a
+                    mudança social através de suas músicas e ações.</p>
+            </li>
+            <!--Mei-->
+            <li class="cartao-personagem">
+                <div class="informacoes">
+                    <span>Mei</span>
+                    <span>#015</span>
+                </div>
+
+                <img src="./src/imagens/Mei.gif" alt="mei" class="gif">
+
+                <ul class="funcao">
+                    <li class="funcao-dano">dano</li>
+                </ul>
+
+                <ul class="origem">
+                    <li><img src="./src/imagens/China.png" alt="China" class="pais"></li>
+                    <li class="cidade">Xiam, China</li>
+                </ul>
+
+                
+
+                <p class="descricao">A equipe de Mei-Ling Zhou, uma climatologista sem igual estabelecida no Ecoponto:
+                    Antártica, foi
+                    forçada a entrar em congelamento criogênico durante uma tempestade turbulenta. Infelizmente, o
+                    congelamento durou mais tempo do que o pretendido e Mei despertou nove anos depois como a única
+                    sobrevivente da estação danificada. Com a ajuda de seu companheiro robô, Bola de Neve, ela inventou
+                    uma nova tecnologia para fugir da Antártica e se unir à nova Overwatch.</p>
+            </li>
+            <!--Mercy-->
+            <li class="cartao-personagem">
+                <div class="informacoes">
+                    <span>Mercy</span>
+                    <span>#016</span>
+                </div>
+
+                <img src="./src/imagens/Mercy-1.gif" alt="mercy" class="gif">
+
+                <ul class="funcao">
+                    <li class="funcao-suporte">suporte</li>
+                </ul>
+
+                <ul class="origem">
+                    <li><img src="./src/imagens/Suica.png" alt="Suíça" class="pais"></li>
+                    <li class="cidade">Zurique, Suíça</li>
+                </ul>
+
+                <p class="descricao">Angela Ziegler, criança prodígio e pioneira em nanotecnologia que ficou órfã
+                    durante a Crise Ômnica,
+                    se tornou a médica de combate de maior destaque da Overwatch e uma grande defensora da paz mundial.
+                    Depois da queda da organização, e com o início de uma nova guerra, ela se questiona se um dia verá a
+                    paz.</p>
+            </li>
+            <!--Moira-->
+            <li class="cartao-personagem">
+                <div class="informacoes">
+                    <span>Moira</span>
+                    <span>#017</span>
+                </div>
+
+                <img src="./src/imagens/moira.png" alt="moira" class="png">
+
+                <ul class="funcao">
+                    <li class="funcao-suporte">suporte</li>
+                </ul>
+
+                <ul class="origem">
+                    <li><img src="./src/imagens/Iraque.png" alt="Iraque" class="pais"></li>
+                    <li class="cidade">Oásis, Iraque</li>
+                </ul>
+
+                <p class="descricao">A controversa geneticista Moira Deorain só se importa com o avanço evolutivo da
+                    humanidade. Embora
+                    seu trabalho tenha lhe rendido muitos inimigos, suas alianças com o coletivo científico de Oásis e a
+                    cruel organização Talon a libertaram das amarras morais e financeiras, permitindo que ela busque
+                    seus avanços com grande eficiência... e sem misericórdia.</p>
+            </li>
+            <!--Orisa-->
+            <li class="cartao-personagem">
+                <div class="informacoes">
+                    <span>Orisa</span>
+                    <span>#018</span>
+                </div>
+
+                <img src="./src/imagens/Orisa.png" alt="orisa" class="png">
+
+                <ul class="funcao">
+                    <li class="funcao-tanque">Tanque</li>
+                </ul>
+
+                <ul class="origem">
+                    <li><img src="./src/imagens/Africa.png" alt="Africa do Sul" class="pais"></li>
+                    <li class="cidade">Numbani, África</li>
+                </ul>
+
+                <p class="descricao">Construída por Efi Odale, uma menina de onze anos genial, Orisa foi criada para
+                    defender a cidade de
+                    Numbani de todas as ameaças. Quando a dupla conseguiu repelir o ataque de Doomfist, da Talon, elas
+                    se tornaram heroínas nacionais. Agora, Orisa está pronta para proteger os necessitados e usar seus
+                    poderes para o bem.</p>
+            </li>
+            <!--Pharah-->
+            <li class="cartao-personagem">
+                <div class="informacoes">
+                    <span>Pharah</span>
+                    <span>#019</span>
+                </div>
+
+                <img src="./src/imagens/Pharah.gif" alt="pharah" class="gif">
+
+                <ul class="funcao">
+                    <li class="funcao-tanque">Tanque</li>
+                </ul>
+
+                <ul class="origem">
+                    <li><img src="./src/imagens/Egito.png" alt="Egito" class="pais"></li>
+                    <li class="cidade">Giza, Egito</li>
+                </ul>
+
+                <p class="descricao">Fareeha Amari sonhava em fazer parte da Overwatch ao lado de sua mãe, Ana, mas viu
+                    o grupo ser
+                    desmanchado antes de a oportunidade surgir. Ela teve sucesso como “Pharah”, líder de um esquadrão de
+                    segurança de elite que vigia a IA rebelde que iniciou a Crise Ômnica. Mas, agora que a Overwatch
+                    retornou, os sonhos de Pharah finalmente estão se realizando.</p>
+            </li>
+            <!--Rainha-Junker-->
+            <li class="cartao-personagem">
+                <div class="informacoes">
+                    <span>Rainha Junker</span>
+                    <span>#020</span>
+                </div>
+
+                <img src="./src/imagens/Rainha-Junker.png" alt="Wastelander" class="png">
+
+                <ul class="funcao">
+                    <li class="funcao-tanque">Tanque</li>
+                </ul>
+
+                <ul class="origem">
+                    <li><img src="./src/imagens/Australia.png" alt="Austrália" class="pais"></li>
+                    <li class="cidade">Junkertown, Austrália</li>
+                </ul>
+
+                <p class="descricao">Antiga moradora do deserto, Odessa "Dez" governa as facções alvoroçadas de junkers
+                    há mais de uma
+                    década. Onde ela está é o seu campo de batalha, todos os assentos são seu trono e todo mundo é seu
+                    súdito, por bem ou por mal. Sua história de conquistas está só começando...</p>
+            </li>
+            <!--Reaper-->
+            <li class="cartao-personagem">
+                <div class="informacoes">
+                    <span>Reaper</span>
+                    <span>#021</span>
+                </div>
+
+                <img src="./src/imagens/Reaper.gif" alt="reaper" class="gif">
+
+                <ul class="funcao">
+                    <li class="funcao-dano">Dano</li>
+                </ul>
+
+                <ul class="origem">
+                    <li><img src="./src/imagens/Italia.png" alt="Itália" class="pais"></li>
+                    <li class="cidade">Roma, Itália</li>
+                </ul>
+
+                <p class="descricao">Gabriel Reyes já foi um estimado membro da Overwatch, primeiro como Comandante de
+                    Ataque e depois
+                    como líder da Blackwatch, o ramo de operações secretas dela. Acreditava-se que ele tinha morrido com
+                    a explosão do quartel-general da organização. Mas dizem os boatos que ele conseguiu escapar e agora
+                    trabalha como o assassino volátil conhecido apenas como Reaper, um dos soldados mais letais da
+                    Talon.</p>
+            </li>
+            <!--Reinhardt-->
+            <li class="cartao-personagem">
+                <div class="informacoes">
+                    <span>Reinhardt</span>
+                    <span>#022</span>
+                </div>
+
+                <img src="./src/imagens/Reinhart.gif" alt="reinhardt" class="gif">
+
+                <ul class="funcao">
+                    <li class="funcao-tanque">tanque</li>
+                </ul>
+
+                <ul class="origem">
+                    <li><img src="./src/imagens/Alemanha.png" alt="Alemanha" class="pais"></li>
+                    <li class="cidade">Stuttgart, Alemanha</li>
+                </ul>
+
+                <p class="descricao">Reinhardt Wilhelm vive pelos nobres códigos da bravura, da justiça e da coragem. Um
+                    dos fundadores da
+                    Overwatch, por décadas foi uma força do bem pelo mundo todo. Depois da queda da organização, ele
+                    viajou pela Europa como um cavaleiro de antigamente, defendendo os inocentes ao lado de sua
+                    escudeira, Brigitte, até que Winston os chamou de volta para servir a Overwatch.</p>
+            </li>
+            <!--Roadhog-->
+            <li class="cartao-personagem">
+                <div class="informacoes">
+                    <span>Roadhog</span>
+                    <span>#023</span>
+                </div>
+
+                <img src="./src/imagens/Roadhog.gif" alt="roadhog" class="gif">
+
+                <ul class="funcao">
+                    <li class="funcao-tanque">tanque</li>
+                </ul>
+
+                <ul class="origem">
+                    <li><img src="./src/imagens/Australia.png" alt="Austrália" class="pais"></li>
+                    <li class="cidade">Junkertown, Austrália</li>
+                </ul>
+
+                <p class="descricao">Roadhog é um matador sanguinário mascarado com fama de destruição gratuita.
+                    Viajando pelo outback
+                    australiano entulhado de lixo, seu único sócio (e muitos se perguntam o porquê) é o jovem maníaco
+                    junker criminoso conhecido como Junkrat.</p>
+            </li>
+            <!--Sigma-->
+            <li class="cartao-personagem">
+                <div class="informacoes">
+                    <span>Sigma</span>
+                    <span>#024</span>
+                </div>
+
+                <img src="./src/imagens/Sigma.png" alt="sigma" class="png">
+
+                <ul class="funcao">
+                    <li class="funcao-tanque">tanque</li>
+                </ul>
+
+                <ul class="origem">
+                    <li><img src="./src/imagens/Holanda.png" alt="Holanda" class="pais"></li>
+                    <li class="cidade">Haia, Holanda</li>
+                </ul>
+
+                <p class="descricao">A vida de Siebren de Kuiper, o famoso astrofísico, mudou para sempre quando um
+                    experimento falhou e
+                    lhe deu o poder de controlar a gravidade, mas dividiu sua mente. Agora, ele luta para manter sua
+                    conexão com a realidade, alheio ao fato de estar sendo manipulado pela Talon para os próprios fins.
+                </p>
+            </li>
+            <!--Sojourn-->
+            <li class="cartao-personagem">
+                <div class="informacoes">
+                    <span>Sojourn</span>
+                    <span>#025</span>
+                </div>
+
+                <img src="./src/imagens/Sojourn.png" alt="sojourn" class="png">
+
+                <ul class="funcao">
+                    <li class="funcao-dano">Dano</li>
+                </ul>
+
+                <ul class="origem">
+                    <li><img src="./src/imagens/Canada.png" alt="Canada" class="pais"></li>
+                    <li class="cidade">Toronto, Canadá</li>
+                </ul>
+
+                <p class="descricao">De soldada a Capitã da Overwatch e depois veterana, Sojourn dedica a vida a
+                    socorrer vítimas dos
+                    males do mundo. Suas aprimorações cibernéticas melhoraram suas habilidades estratégicas natas e seus
+                    feitos nos campo de batalha a tornaram a estrategista mais talentosa da Overwatch. Agora por conta
+                    própria, ela deve enfrentar novos desafios... e novos perigos.</p>
+            </li>
+            <!--Soldado: 76-->
+            <li class="cartao-personagem">
+                <div class="informacoes">
+                    <span>Soldado: 76</span>
+                    <span>#026</span>
+                </div>
+
+                <img src="./src/imagens/Soldado 76.gif" alt="soldado : 76" class="gif">
+
+                <ul class="funcao">
+                    <li class="funcao-dano">Dano</li>
+                </ul>
+
+                <ul class="origem">
+                    <li><img src="./src/imagens/moon.png" alt="Desconhecido" class="pais"></li>
+                    <li class="cidade">Desconhecido</li>
+                </ul>
+
+                <p class="descricao">Antigo comandante da Overwatch que se tornou justiceiro com aprimoramentos físicos,
+                    Jack Morrison
+                    viaja pelo mundo caçando os responsáveis pela queda da organização. Não se sabe se ele quer
+                    justiça... ou vingança.</p>
+            </li>
+            <!--Symetria-->
+            <li class="cartao-personagem">
+                <div class="informacoes">
+                    <span>Symetria</span>
+                    <span>#028</span>
+                </div>
+
+                <img src="./src/imagens/Sombra.gif" alt="Symetria" class="gif">
+
+                <ul class="funcao">
+                    <li class="funcao-dano">dano</li>
+                </ul>
+
+                <ul class="origem">
+                    <li><img src="./src/imagens/India.png" alt="India" class="pais"></li>
+                    <li class="cidade">Utopaea, Índia</li>
+                </ul>
+
+                <p class="descricao">Como uma “arquitécnica” da Corporação Vishkar, Symmetra tece construções de luz
+                    sólida, criando
+                    prédios e infraestruturas a partir do nada. A Vishkar também a envia em missões clandestinas pelo
+                    mundo todo para defender os interesses corporativos, levando-a a se perguntar se o controle e a
+                    ordem que ela quer, e que a Vishkar representa, são realmente o melhor para a humanidade.</p>
+            </li>
+            <!--Torbjörn-->
+            <li class="cartao-personagem">
+                <div class="informacoes">
+                    <span>Torbjörn</span>
+                    <span>#030</span>
+                </div>
+
+                <img src="./src/imagens/Torbjorn.png" alt="Torbjorn" class="png">
+
+                <ul class="funcao">
+                    <li class="funcao-dano">dano</li>
+                </ul>
+
+                <ul class="origem">
+                    <li><img src="./src/imagens/Suecia.png" alt="Suécia" class="pais"></li>
+                    <li class="cidade">Gotemburgo, Suécia</li>
+                </ul>
+
+                <p class="descricao">Como um dos melhores engenheiros do mundo, Torbjörn Lindholm desenvolveu armas
+                    cruciais para o fim da
+                    Crise Ômnica e manteve a Overwatch à frente da tecnologia bélica por décadas. Recentemente, sua
+                    “adoção” de uma unidade Bastion curiosa o levaram questionar sua antipatia por robôs e ômnicos,
+                    enquanto trabalha para impedir que suas criações caiam nas mãos erradas.</p>
+            </li>
+            <!--Tracer-->
+            <li class="cartao-personagem">
+                <div class="informacoes">
+                    <span>Tracer</span>
+                    <span>#031</span>
+                </div>
+
+                <img src="./src/imagens/Tracer.gif" alt="Tracer" class="gif">
+
+                <ul class="funcao">
+                    <li class="funcao-dano">dano</li>
+                </ul>
+
+                <ul class="origem">
+                    <li><img src="./src/imagens/Inglaterra.png" alt="Inglaterra" class="pais"></li>
+                    <li class="cidade">Londres, Inglaterra</li>
+                </ul>
+
+                <p class="descricao">Tracer é uma aventureira que salta no tempo e uma força do bem irreprimível. Com
+                    uma armadura
+                    temporal que permite que ela controle seu fluxo no tempo, Tracer era uma das melhores agentes da
+                    Overwatch, e continua tentando fazer do mundo um lugar melhor em qualquer lugar e a qualquer hora.
+                    Ela usa suas habilidades e otimismo para ajudar a nova Overwatch a manter o mundo seguro.</p>
+            </li>
+            <!--Widowmaker-->
+            <li class="cartao-personagem">
+                <div class="informacoes">
+                    <span>Widowmaker</span>
+                    <span>#032</span>
+                </div>
+
+                <img src="./src/imagens/WidowMaker.png" alt="Widowmaker" class="png">
+
+                <ul class="funcao">
+                    <li class="funcao-dano">dano</li>
+                </ul>
+
+                <ul class="origem">
+                    <li><img src="./src/imagens/Franca.png" alt="França" class="pais"></li>
+                    <li class="cidade">Annecy, França</li>
+                </ul>
+
+                <p class="descricao">Há muito tempo, Amélie Lacroix, esposa de um agente da Overwatch, foi sequestrada
+                    pela Talon. Pouco
+                    depois de voltar para casa, ela matou o marido e desapareceu. Agora, “Widowmaker” é a arma mais
+                    eficiente da Talon, uma agente paciente e implacável que quase nunca demonstra emoção ou remorso, e
+                    só sente prazer no momento do abate.</p>
+            </li>
+            <!--Winston-->
+            <li class="cartao-personagem">
+                <div class="informacoes">
+                    <span>Winston</span>
+                    <span>#033</span>
+                </div>
+
+                <img src="./src/imagens/Winston.png" alt="Winston" class="png">
+
+                <ul class="funcao">
+                    <li class="funcao-tanque">tanque</li>
+                </ul>
+
+                <ul class="origem">
+                    <li><img src="./src/imagens/Lua.png" alt="Colônia Lunar" class="pais"></li>
+                    <li class="cidade">Colônia Lunar Horizon</li>
+                </ul>
+
+                <p class="descricao">Um gorila geneticamente modificado e altamente inteligente, o gentil Winston é um
+                    cientista brilhante
+                    e campeão poderoso. Ao fugir da Colônia Lunar Horizon, Winston encontrou um lar na Overwatch e se
+                    tornou o herói que sempre quis ser... até o desmanche da organização. Agora, com o mundo diante de
+                    uma ameaça crescente do Setor Nulo, o gorila convocou alguns de seus amigos e antigos aliados. Uma
+                    nova Overwatch nasceu.</p>
+            </li>
+            <!--Wrecking Ball-->
+            <li class="cartao-personagem">
+                <div class="informacoes">
+                    <span>Wrecking Ball</span>
+                    <span>#034</span>
+                </div>
+
+                <img src="./src/imagens/Wrecking-Ball.png" alt="Wrecking Ball" class="png">
+
+                <ul class="funcao">
+                    <li class="funcao-tanque">tanque</li>
+                </ul>
+
+                <ul class="origem">
+                    <li><img src="./src/imagens/Lua.png" alt="Colônia Lunar" class="pais"></li>
+                    <li class="cidade">Colônia Lunar Horizon</li>
+                </ul>
+
+                <p class="descricao">A terapia genética feita neste hamster na Colônia Lunar Horizon resultaram num
+                    aumento considerável
+                    do seu tamanho e intelecto. Depois de estudar sozinho engenharia e mecânica, Hammond fugiu para a
+                    Terra, pousando em meio aos junkers do outback australiano. Lá, ele transformou sua cápsula de fuga
+                    em um mecha de batalha chamado Wrecking Ball e se tornou um campeão gladiador e guarda-costas da
+                    famosa Rainha Junker.</p>
+            </li>
+            <!--Zarya-->
+            <li class="cartao-personagem">
+                <div class="informacoes">
+                    <span>Zarya</span>
+                    <span>#035</span>
+                </div>
+
+                <img src="./src/imagens/Zarya.gif" alt="Zarya" class="gif">
+
+                <ul class="funcao">
+                    <li class="funcao-tanque">tanque</li>
+                </ul>
+
+                <ul class="origem">
+                    <li><img src="./src/imagens/Russia.png" alt="Russia" class="pais"></li>
+                    <li class="cidade">Sibéria, Rússia</li>
+                </ul>
+
+                <p class="descricao">Criada em um mundo pós-guerra devastado pela Crise Ômnica, Zarya se tornou campeã
+                    de levantamento de
+                    peso e usou sua força e fama para ajudar a nação a se reerguer. Agora, ela sacrificou a glória
+                    pessoal para proteger seu povo nas linhas de frente de uma guerra contra uma nova ameaça mecânica.
+                </p>
+            </li>
+            <!--Zenyatta-->
+            <li class="cartao-personagem">
+                <div class="informacoes">
+                    <span>Zenyatta</span>
+                    <span>#036</span>
+                </div>
+
+                <img src="./src/imagens/Zenyatta-2.gif" alt="Zenyatta" class="gif">
+
+                <ul class="funcao">
+                    <li class="funcao-suporte">suporte</li>
+                </ul>
+
+                <ul class="origem">
+                    <li><img src="./src/imagens/Nepal.png" alt="Nepal" class="pais"></li>
+                    <li class="cidade">Monastério de Shambali, Nepal</li>
+                </ul>
+
+                <p class="descricao">Zenyatta é um monge ômnico que vagueia pelo mundo em busca de iluminação
+                    espiritual, ajudando quem
+                    ele encontra a superar suas batalhas pessoais e encontrar paz interior. Mas, quando necessário, ele
+                    luta para proteger os inocentes, sejam eles ômnicos ou humanos. Dizem que aqueles que cruzam seu
+                    caminho não voltam mais os mesmos.</p>
+            </li>
+
+        </ul>
+    </main>
+    <script src="./src/js/index.js"></script>
+
+    
+</body>
+
+</html>
